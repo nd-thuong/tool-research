@@ -1,0 +1,76 @@
+.img-edit {
+  width: 100%;
+  padding: 0 10px;
+
+  :global(.tui-image-editor-header-logo) {
+    display: none;
+  }
+
+  :global(.tui-image-editor-container.left .tui-image-editor-submenu) {
+    width: 235px
+  }
+
+  :global(.tui-image-editor-container .tui-image-editor-submenu .tui-image-editor-button > label) {
+    color: aqua;
+  }
+
+  :global(.tui-image-editor-container .tui-image-editor-submenu .apply) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  :global(.tui-image-editor-container .tui-image-editor-submenu .apply label) {
+    cursor: pointer;
+  }
+
+  :global(.tui-image-editor-container .tui-image-editor-submenu .cancel) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  :global(.tui-image-editor-container .tui-image-editor-submenu .cancel label) {
+    cursor: pointer;
+  }
+
+  :global(.tui-image-editor-container .tui-image-editor-submenu .tui-image-editor-submenu-item .action) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  :global(.tui-image-editor-header-buttons) {
+    display: none;
+  }
+}
+
+.block-image {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  box-sizing: border-box;
+
+  img {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+  }
+}
+
+.carousel-item {
+  width: 100%;
+  height: 500px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
